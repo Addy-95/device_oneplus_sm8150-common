@@ -21,4 +21,11 @@
     
     <!-- Disable Battery health services as It's enable by default in our sources  -->
     <bool name="config_supportBatteryHealth">false</bool>
+    
+    <!-- FOD recognizing animation -->
+    <bool name="config_showFODAnimationSettings">true</bool>
+
+    <!-- Screen off FOD -->
+    <bool name="config_supportScreenOffFod">true</bool>
+    
 </resources>
