@@ -63,4 +63,7 @@
     
     <!-- NightLight FOD -->
     <bool name="disable_fod_night_light">true</bool>
+    
+    <!-- Shows the required view for in-display fingerprint -->
+    <bool name="config_supportsInDisplayFingerprint">true</bool>
 </resources>
