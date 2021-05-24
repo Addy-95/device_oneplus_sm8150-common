@@ -14,6 +14,9 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 # Blurrr
 ro.surface_flinger.supports_background_blur=1
 
+# Camera
+persist.vendor.camera.privapp.list=com.oneplus.camera
+
 # Charger
 ro.charger.enable_suspend=true
 
