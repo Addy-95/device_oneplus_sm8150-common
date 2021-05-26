@@ -25,8 +25,6 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import androidx.preference.PreferenceManager;
 
-import org.lineageos.device.DeviceSettings.TouchscreenGestureSettings;
-
 public class Startup extends BroadcastReceiver {
 
     private static final String TAG = "BootReceiver";
@@ -40,7 +38,6 @@ public class Startup extends BroadcastReceiver {
         VibratorStrengthPreference.restore(context);
 
         boolean enabled = false;
-        TouchscreenGestureSettings.MainSettingsFragment.restoreTouchscreenGestureStates(context);
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
         enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_SRGB_SWITCH, false);
 
